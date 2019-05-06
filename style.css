@@ -1,1 +1,29 @@
+/*.style1 {  this is a class 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 16;
+}
 
+h1 {  this changes all tags eg. p { color: blue } etc 
+    color: navy;
+    text-align: center;
+}
+
+#paragraph1 {  this changes just the specified id 
+    text-align: left;
+    color: red;
+}
+
+p.style1 {  This changes all paragraphs with class style1 
+    text-align: center;
+    color: black;
+}
+
+<p class="center large">This paragraph refers to two classes.</p> */
+
+h1 {
+    color: navy;
+    text-align: center;
+    margin: 1;
+}
