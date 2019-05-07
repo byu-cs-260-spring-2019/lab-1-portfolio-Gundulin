@@ -6,21 +6,21 @@
     </head>
     <body>
         <!-- Top/Nav bar -->
-        <ul class="bar">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Projects.html">Projects</a></li>
-            <li><a href="https://www.linkedin.com/in/austen-arts-a172ab106/">LinkedIn</a></li>
-            <li><a href="https://github.com/Gundulin?tab=projects">GitHub</a></li>
-            <li><a href="h1.html">HTML1</a></li>
-            <li><a href="">HTML2</a></li>
-            <li><a href="">HTML3</a></li>
-        </ul>
+        <h4>
+            <a href="index.html">Home</a>
+            <a href="Projects.html">Projects</a>
+            <a href="https://www.linkedin.com/in/austen-arts-a172ab106/">LinkedIn</a>
+            <a href="https://github.com/Gundulin?tab=projects">GitHub</a>
+            <a href="h1.html">HTML1</a>
+            <a href="h2.html">HTML2</a>
+            <a href="h3.html">HTML3</a>
+        </h4>
 
         <!-- Name -->
         <h1 id="name">Austen Arts</h1>
 
         <!-- Introduction -->
-        <img src="./images/Portrait.jpg" alt="A picture of me" height="30%" width="30%">
+        <img class="right" src="./images/Portrait.jpg" alt="A picture of me" height="30%" width="30%">
         <h3 class="intro">About Me</h3>
         <p class ="intro">
             A native of Provo, UT, I spent most of my life growing up around BYU. 
@@ -38,8 +38,9 @@
         </p>
 
         <!-- Lists -->
+        
         <h3 class="lists">Interests:</h3>
-        <ul class="lists">
+        <ul>
             <li>Good Conversation</li>
             <li>Good Food</li>
             <li>Humor</li>
@@ -47,12 +48,16 @@
             <li>Board Games</li>
             <li>Video Games</li>
         </ul>
-        <img src="./images/Disney.jpg" alt="Disney Land" height="30%" width="30%">
+        <img class="right" src="./images/Disney.jpg" alt="Disney Land" height="30%" width="30%">
         <h3 class="lists">Work Experience:</h3>
-        <ol class="lists"> 
+        <ol> 
             <li>Research Assistant at BYU</li>
             <li>Junior in the Computer Science Program at BYU</li>
             <li>Teaching grime tough love at the Cannon Center as a custodian</li>
         </ol>
+
+        <!-- A Button -->
+        <button type="button"
+        onclick="this.innerHTML = 'told you so.'">Click Bait</button>
     </body>
 </html>

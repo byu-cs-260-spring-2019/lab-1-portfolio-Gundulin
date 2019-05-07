@@ -14,29 +14,20 @@ body {
     margin-top: 0px;
 }
 
-/* Top/Nav Bar (Thank you w3schools.com) */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:#45801D;    
-}
-  
-li {
-    float: left;
-}
-  
-li a {
+/* Top/Nav Bar */
+h4 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: block;
-    color: #89FF3B;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
+    background-color: #45801D;
 }
-  
-li a:hover {
+a:link, a:visited {
+    background-color: #45801D;
+    color: #89FF3B;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
     background-color: #5C8044;
 }
 
@@ -45,20 +36,10 @@ li a:hover {
     background-color: #B7FF87;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: underline;
-    overflow: hidden;
 }
-ul.lists {
-    list-style-type: circle;
+ul, ol {
     background-color: rgba(183, 255, 135, 0.5);
-    padding: 10px;
-    text-align: center;
-    /*margin: 10px;*/
-}
-ol.lists {
-    list-style-type: decimal;
-    background-color: rgba(183, 255, 135, 0.5);
-    padding: 10px;
-    height: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Introduction */
@@ -75,6 +56,47 @@ p.intro {
 }
 
 /* Images */
-img {
+img.right {
     float: right;
+    overflow: auto;
+}
+/* Button */
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #B7FF87;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    border: none;
+}
+button:hover{
+    background-color: #5C8044;
+}
+
+/* Tables for HTML1 */
+table {
+    border: 1px solid black;
+    text-align: left;
+}
+
+/* Image Gallery */
+div.gal img {
+    width: 100%;
+    height: auto;
+}
+
+.rotate {
+    transform: rotate(270deg);
+    float: left;
+    display: block;
+    margin-left: 2in;
+}
+
+.center {
+    float: left;
+    margin-left: 2in;
 }
