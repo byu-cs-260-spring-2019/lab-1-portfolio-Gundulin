@@ -1,29 +1,80 @@
-/*.style1 {  this is a class 
+/* The name at the top of the page */
+#name {
+    color: #45801D;
+    text-align: center;
+    background-color: rgba(183, 255, 135, 0.541);
+    padding: 10px;
+    font-size: 42px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    font-size: 16;
+}
+/* The background of the page */
+body {
+    background-color: ivory;
+    line-height: 1.5;
+    margin-top: 0px;
 }
 
-h1 {  this changes all tags eg. p { color: blue } etc 
-    color: navy;
+/* Top/Nav Bar (Thank you w3schools.com) */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#45801D;    
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    color: #89FF3B;
     text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #5C8044;
 }
 
-#paragraph1 {  this changes just the specified id 
-    text-align: left;
-    color: red;
+/* Lists */
+.lists {
+    background-color: #B7FF87;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    overflow: hidden;
 }
-
-p.style1 {  This changes all paragraphs with class style1 
+ul.lists {
+    list-style-type: circle;
+    background-color: rgba(183, 255, 135, 0.5);
+    padding: 10px;
     text-align: center;
-    color: black;
+    /*margin: 10px;*/
+}
+ol.lists {
+    list-style-type: decimal;
+    background-color: rgba(183, 255, 135, 0.5);
+    padding: 10px;
+    height: 100px;
 }
 
-<p class="center large">This paragraph refers to two classes.</p> */
+/* Introduction */
+.intro {
+    background-color: #B7FF87;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3.intro {
+    text-decoration: underline;
+}
+p.intro {
+    text-indent: 0.5in;
+    background-color: rgba(183, 255, 135, 0.5);
+}
 
-h1 {
-    color: navy;
-    text-align: center;
-    margin: 1;
+/* Images */
+img {
+    float: right;
 }
